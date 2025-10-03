@@ -37,7 +37,7 @@ dependencies = [
 Homepage = "https://github.com/meysam81/sitemap-harvester"
 
 [project.scripts]
-sitemap-harvester = "main:main"
+sitemap-harvester = "sitemap_harvester.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
