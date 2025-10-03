@@ -39,6 +39,6 @@ jobs:
       - name: Install build tools
         run: python3 -m pip install --upgrade pip setuptools wheel build
       - name: Build package
-        run: python3 -m build --wheel --no-isolation
+        run: python3 -m build --wheel --sdist --no-isolation
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
