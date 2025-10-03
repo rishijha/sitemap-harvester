@@ -24,7 +24,8 @@ jobs:
           release-type: python
 
   pypi-publish:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: release-please
+    if: needs.release-please.outputs.releases_created == 'true'
     name: upload release to PyPI
     runs-on: ubuntu-latest
     permissions:
