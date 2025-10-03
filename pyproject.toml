@@ -6,7 +6,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sitemap-crawler"
+name = "sitemap-harvester"
 version = "1.0.0"
 authors = [
     {name = "Meysam Azad", email = "meysam@developer-friendly.blog"},
@@ -34,11 +34,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/meysam81/sitemap-crawler"
+Homepage = "https://github.com/meysam81/sitemap-harvester"
 
 [project.scripts]
-sitemap-crawler = "main:main"
+sitemap-harvester = "main:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["sitemap_crawler*"]
+include = ["sitemap_harvester*"]

@@ -5,7 +5,7 @@ import csv
 import sys
 import time
 
-from sitemap_crawler import SitemapCrawler
+from sitemap_harvester import SitemapCrawler
 
 
 def main():

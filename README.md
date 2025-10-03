@@ -1,35 +1,55 @@
-# Sitemap Crawler
+# 🗺️ Sitemap Harvester
 
-A Python tool to crawl website sitemaps and extract metadata from URLs.
+[![PyPI version](https://badge.fury.io/py/sitemap-harvester.svg)](https://badge.fury.io/py/sitemap-harvester)
+[![Python Support](https://img.shields.io/pypi/pyversions/sitemap-harvester.svg)](https://pypi.org/project/sitemap-harvester/)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/sitemap-harvester)](https://pypi.org/project/sitemap-harvester/)
 
-## Installation
+> 🚀 **A blazingly fast Python tool to harvest URLs and metadata from website sitemaps like a digital archaeologist!**
+
+## 🚀 Quick Start
+
+### Installation
 
 ```bash
-pip install sitemap-crawler
+pip install sitemap-harvester
 ```
 
-## Usage
+### Basic Usage
 
 ```bash
-sitemap-crawler --url https://example.com --output results.csv --timeout 10
+# Harvest a website's sitemap
+sitemap-harvester --url https://example.com
+
+# Custom output file and timeout
+sitemap-harvester --url https://example.com --output my_data.csv --timeout 15
 ```
 
-### Options
+## 🎯 What Gets Extracted?
 
-- `--url`: Base URL of the website (required)
-- `--output`: Output CSV file (default: sitemap_metadata.csv)
-- `--timeout`: Request timeout in seconds (default: 10)
+- 📝 **Page Title** - The main title of each page
+- 📄 **Meta Description** - SEO descriptions
+- 🏷️ **Keywords** - Meta keywords (if present)
+- 👤 **Author** - Page author information
+- 🔗 **Canonical URL** - Canonical link references
+- 🖼️ **Open Graph Data** - Social media metadata
+- 🌐 **Custom Meta Tags** - Any additional meta information
 
-## Features
+## 💡 Pro Tips
 
-- Automatically discovers sitemaps from common locations
-- Parses robots.txt for sitemap URLs
-- Handles sitemap index files recursively
-- Extracts metadata including title, description, keywords, and Open Graph data
-- Outputs results to CSV format
+- Use `--timeout` for slower websites or large sitemaps
+- The tool automatically deduplicates URLs for you
+- Check the console output for real-time progress updates
+- Large sitemaps? Grab a coffee ☕ and let it work its magic!
 
-## Requirements
+## 🤝 Contributing
 
-- Python 3.7+
-- requests
-- beautifulsoup4
+Found a bug? Have a feature request? Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## 📜 License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+---
+
+_Happy harvesting! 🌾_
