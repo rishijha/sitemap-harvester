@@ -26,6 +26,8 @@ jobs:
   pypi-publish:
     needs: release-please
     if: needs.release-please.outputs.releases_created == 'true'
+    environment:
+      name: pypi
     name: upload release to PyPI
     runs-on: ubuntu-latest
     permissions:
