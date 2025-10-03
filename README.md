@@ -1,6 +1,6 @@
 # 🗺️ Sitemap Harvester
 
-[![PyPI version](https://badge.fury.io/py/sitemap-harvester.svg)](https://badge.fury.io/py/sitemap-harvester)
+[![PyPI - Version](https://img.shields.io/pypi/v/sitemap-harvester)](https://pypi.org/project/sitemap-harvester/)
 [![Python Support](https://img.shields.io/pypi/pyversions/sitemap-harvester.svg)](https://pypi.org/project/sitemap-harvester/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/sitemap-harvester)](https://pypi.org/project/sitemap-harvester/)
