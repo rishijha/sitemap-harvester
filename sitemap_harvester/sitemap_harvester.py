@@ -12,6 +12,13 @@ from bs4 import BeautifulSoup
 
 class SitemapCrawler:
     def __init__(self, base_url: str, timeout: int = 10):
+        parsed = urlparse(base_url)
+        if parsed.scheme not in ["http", "https"]:
+            if parsed.scheme:
+                base_url = base_url.replace(f"{parsed.scheme}://", "https://", 1)
+            else:
+                base_url = f"https://{base_url}"
+
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout
         self.visited_sitemaps: Set[str] = set()
